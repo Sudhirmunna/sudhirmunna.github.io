@@ -1,0 +1,501 @@
+/*Google webfont*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
+
+
+/*
+----------
+Common
+----------
+*/
+.Header{
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+text-transform: uppercase;
+margin-top: 5% !important;
+margin-bottom: 2% !important;
+  color: #444444 !important;
+}
+.Text{
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
+color: #444444 !important;
+}
+.TextBold{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+color: #444444 !important;
+}
+
+.alignCenter{
+  text-align: center !important;
+}
+.paddingRow{
+padding-top: 2% !important;
+padding-bottom: 5% !important;
+}
+.marginCol{
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}
+.paddingBottom{
+  padding-bottom: 5%;
+}
+/*
+--------
+Cta
+--------
+*/
+
+/*.Cta {
+font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center !important;
+    text-transform: uppercase;
+    background: transparent !important;
+    border-color: #444444;
+    padding: 12px;
+    font-weight: 300;
+}*/
+
+.Cta {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center !important;
+    text-transform: uppercase;
+    background: transparent;
+    /* border-color: #049dff; */
+    padding: 14px;
+    border-width: thick;
+    /* border-bottom: #444444 !important; */
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    font-weight: 300;
+    /* padding-left: 1%; */
+}
+/*
+-----------
+New Nav Bar
+-----------
+*/
+.navbar {
+  border: none;
+}
+.navbar ul.nav > li > a {
+  text-transform: uppercase;
+  border-top: solid 5px transparent;
+}
+.navbar ul.nav > li > a:hover {
+/*  border-top: solid 5px #4fbfa8;
+*/}
+@media (max-width: 767px) {
+  .navbar ul.nav > li > a:hover {
+    border-top: solid 5px transparent;
+  }
+}
+.navbar ul.nav > li.active > a,
+.navbar ul.nav > li.open > a {
+  text-decoration: none !important;
+/*  border-top: solid 5px #4fbfa8;
+*/  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .navbar ul.nav > li.active > a,
+  .navbar ul.nav > li.open > a {
+    border-top: solid 5px transparent;
+  }
+}
+
+
+/*
+----------
+Grid view 
+----------
+*/
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
+
+.grid-text-header{
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
+}
+.grid-text-info{
+font-family: 'Roboto', sans-serif;
+}
+/*Grid ends*/
+
+.footer-Copyright{
+    margin-left: 5% !important; 
+}
+
+
+/*
+----------
+Section1
+----------
+*/
+/*For the typed effect */
+.inLine{
+display: inline-block;
+
+}
+/* code for animated blinking cursor */
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            font-size: 23px;
+            font-weight: 200;
+            color: greenyellow;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+
+
+/*typed  ends*/
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8 !important;
+    background: url(../images/hero.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+    margin: 0;
+/*    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+*/    font-size: 5em;
+text-shadow: none !important;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-shadow: none !important;
+/*    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+*/}
+.intro-message > h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-shadow: none !important;
+/*    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+*/}
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+/*
+----------
+Section2
+----------
+*/
+
+.progress{
+    height:6px;
+    border-radius: 0;
+    box-shadow: none;
+    line-height: 35px;
+    background:#d6d6d6;
+}
+.progressbar-title{
+    color:#333;
+    font-size:15px;
+/*    margin:5px 0 5px;
+*/}
+.progressbar-value{
+    float: right;
+    display:block;
+}
+.progress .progress-bar{
+    animation: progress 6s;
+}
+@-webkit-keyframes progress{
+    0% { width: 0%;}
+}
+@keyframes progress{
+    0% { width:0%; }
+}
+
+/*
+----------
+Section3
+----------
+*/
+#service{
+    background: #ebebeb;
+}
+
+#ServiceHeading{
+        margin-top: 3%;
+}
+/*fade effect starts*/
+.ServiceCaptionContainer {
+    position: relative;
+    top: 10px;
+    left: 0;
+    color: #444444 !important;
+    text-shadow: none !important;
+}
+.ServiceCta {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center !important;
+    text-transform: uppercase;
+    background: transparent !important;
+    border-color: #444444;
+    padding: 12px;
+    font-weight: 300;
+}
+
+.ServiceFramesCommonCta{
+text-align: center;
+margin-bottom: 2% !important;
+}
+
+.Servicenavs{
+    text-align: center;
+}
+.ServiceFrames{
+    margin: 2% 10% 2% 10%!important;
+}
+
+.ServiceIndividualFrameCta{
+    /*display: inline-block;*/
+    /*margin-top: 5%;*/
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+   
+}
+
+#ServiceSection {
+}
+
+.ServiceHeader {
+  font-family: 'Roboto', sans-serif; 
+  text-align: center;
+  font-weight: 400;
+}
+
+.ServiceSubHeader {
+   font-family: 'Roboto', sans-serif; 
+   text-align: center;
+    font-weight: 300;
+    font-size: initial;
+    margin: 2%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ServiceTitle {
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    font-size: 160%;
+    font-weight: 400;
+}
+
+.ServiceText {
+  font-family: 'Roboto', sans-serif; 
+  text-align: center;
+  font-size: 100% !important;
+  font-weight: 300;
+
+}
+
+.ServiceImg {
+    margin: 10px auto;
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+}
+/*// Empty-To Configure Number of Columns
+*/.NumberOfCol-Service{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+/*// Empty-To Hide Number of Columns
+*/.ColHide{
+
+}
+
+/*Extra Small Devices Phones*/
+@media (min-width: 483px) and (max-width: 767px) {
+ .ServiceImg {
+    margin: 10px auto;
+    width: 50% !important;
+    }
+}  
+@media (max-width: 483px){
+    .ServiceImg {
+        width: 60% !important; 
+    }
+}
+
+/* Small Devices Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .ServiceImg {
+        margin: 10px auto;
+        width: 80%;
+    }
+    .ServiceSubHeader{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+}
+
+/*Large devices Desktop*/
+@media (min-width: 1400px) {
+    .ServiceImg {
+    margin: 10px auto;
+    width: 60% !important;
+    }
+    .ServiceTitle {
+        /*font-size: large;*/
+    }
+    .ServiceText{
+        font-size: initial;
+    }
+}
+
+@media (min-width: 2199px){
+
+}
+
+/*
+----------
+Section4
+----------
+*/
+
+/*.container-fluid.no-gutter {
+  padding: 0px;
+}*/
+
+.container-fluid.no-gutter .row [class*='col-']:not(:first-child),
+.container-fluid.no-gutter .row [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.item {
+  border: none;
+}
+
+
+/* Isotope Transitions
+------------------------------- */
+
+.isotope,
+.isotope .item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: top, left, opacity;
+  transition-property: transform, opacity;
+}
+
+
+/* responsive media queries */
+
+@media (max-width: 768px) {}
+/*
+----------
+Section5
+----------
+*/
+#clients {
+    background: #ebebeb;
+    padding-top: 0%;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.clientHead{
+    background: #ebebeb;
+}
+/*
+----------
+Section6
+----------
+*/
+
