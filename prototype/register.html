@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css">
+    <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/ripples.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/bootstrap-material-design/dist/js/material.js"></script>
+    <script src="bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+    <script src="resources/js/main.js"></script>
+</head>
+<body>
+<div class="well bs-component marginForm">
+<form class="form-horizontal">
+  <fieldset>
+    <legend>Register</legend>
+    <div class="form-group">
+    <div class="form-group label-floating marginFloatingText">
+      <label class="control-label" for="focusedInput1">First Name</label>
+      <input class="form-control" id="focusedInput1" type="text">
+    </div>
+    <div class="form-group label-floating marginFloatingText">
+      <label class="control-label" for="focusedInput2">Middle Name</label>
+      <input class="form-control" id="focusedInput2" type="text">
+    </div>
+    <div class="form-group label-floating marginFloatingText">
+      <label class="control-label" for="focusedInput3">Last Name</label>
+      <input class="form-control" id="focusedInput3" type="text">
+    </div>
+    <div class="form-group label-floating marginFloatingText">
+      <label class="control-label" for="focusedInput4">Email</label>
+      <input class="form-control" id="focusedInput4" type="text">
+    </div>
+    <div class="form-group label-floating marginFloatingText">
+      <label class="control-label" for="focusedInput5">Mobile</label>
+      <input class="form-control" id="focusedInput5" type="text">
+    </div>
+    <div class="form-group">
+      <label for="select111" class="col-md-2 control-label">Select</label>
+
+      <div class="col-md-10">
+        <select id="select111" class="form-control">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="select222" class="col-md-2 control-label">Please select interested technologies</label>
+
+      <div class="col-md-10">
+        <select id="select222" multiple="" class="form-control">
+          <option>Java</option>
+          <option>UI</option>
+          <option>Selenium</option>
+          <option>DataBase</option>
+          <option>DevOps</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputFile" class="col-md-2 control-label">Resume</label>
+      <div class="col-md-10">
+        <input type="text" readonly="" class="form-control" placeholder="Please upload a word copy for your updated resume...">
+        <input type="file" id="inputFile" multiple="">
+      </div>
+  </div>
+    <div class="form-group">
+      <div class="col-md-10 col-md-offset-2">
+        <button type="button" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+</div>
+</body>
